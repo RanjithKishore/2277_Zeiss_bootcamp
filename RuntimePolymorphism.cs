@@ -12,7 +12,7 @@ namespace Assignment1
         class TataCar
         {
             //Dependency
-            RevtronEngine _engine = new RevtronEngine(); //composition
+            
             public void Ignite(Engine _engineType)
             {
                 _engineType.Start();
